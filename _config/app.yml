@@ -1,0 +1,3 @@
+Director:
+  rules:
+    'humans.txt': 'Signature_Controller'
