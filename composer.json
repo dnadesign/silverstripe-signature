@@ -1,0 +1,7 @@
+{
+    "name": "dna/silverstripe-signature",
+    "type": "silverstripe-module",
+    "extra": {
+        "installer-name": "signature"
+    }
+}
