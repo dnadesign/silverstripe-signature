@@ -1,4 +1,13 @@
 <?php
+
+namespace DNA\Signature;
+
+
+use SilverStripe\Control\HTTPRequest;
+use SilverStripe\SiteConfig\SiteConfig;
+use SilverStripe\Control\Controller;
+
+
 class Signature_Controller extends Controller
 {
 
@@ -6,7 +15,7 @@ class Signature_Controller extends Controller
         'index'
     );
 
-    public function index(SS_HTTPRequest $request)
+    public function index(HTTPRequest $request)
     {
         return $this->renderWith(array('Signature_Index'));
     }
