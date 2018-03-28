@@ -1,6 +1,6 @@
 {
     "name": "dnadesign/silverstripe-signature",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "extra": {
         "installer-name": "signature"
     }
